@@ -16,7 +16,7 @@ namespace Atividade_aula12
             base.setCor("Verde");
             this.baseTriangulo = baseTriangulo;
             this.altura = altura;
-            Console.WriteLine("Área do Quadrado: " + this.calculcarArea() + "\n");
+            Console.WriteLine("Área do Triangulo: " + this.calculcarArea() + "\n");
         }
 
         public Triangulo(string cor, double baseTriangulo, double altura)
@@ -24,7 +24,7 @@ namespace Atividade_aula12
             base.setCor(cor);
             this.baseTriangulo = baseTriangulo;
             this.altura = altura;
-            Console.WriteLine("Área do Quadrado: " + this.calculcarArea() + "\n");
+            Console.WriteLine("Área do Triangulo: " + this.calculcarArea() + "\n");
         }
         public override double calculcarArea()
         {
