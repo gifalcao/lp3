@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace classes_abstratas
+namespace Atividade_aula12
 {
     class Quadrado : Forma
     {
@@ -29,9 +29,5 @@ namespace classes_abstratas
             return lado * lado;
         }
 
-        public override void digaOi(string msg)
-        {
-            Console.WriteLine("Oi: " + msg);
-        }
     }
 }
