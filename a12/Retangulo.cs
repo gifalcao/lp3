@@ -16,7 +16,7 @@ namespace Atividade_aula12
             base.setCor("Roxo");
             this.lado = lado;
             this.altura = altura;
-            Console.WriteLine("Área do Quadrado: " + this.calculcarArea() + "\n");
+            Console.WriteLine("Área do Retangulo: " + this.calculcarArea() + "\n");
         }
 
         public Retangulo(string cor, double lado, double altura)
@@ -24,7 +24,7 @@ namespace Atividade_aula12
             base.setCor(cor);
             this.lado = lado;
             this.altura = altura;
-            Console.WriteLine("Área do Quadrado: " + this.calculcarArea() + "\n");
+            Console.WriteLine("Área do Retangulo: " + this.calculcarArea() + "\n");
         }
         public override double calculcarArea()
         {
